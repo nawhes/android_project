@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="201421256 박세환 \n모바일프로그래밍 기말과제\n\n원하는 문구가 담긴 SMS를 저장하는 어플리케이션입니다.\n어플리케이션이 동작하고 브로드캐스드가 작동하는 이 후부터 입력한 문구가 포함된 SMS가 저장됩니다.\n수집할 대상이 되는 문구를 확인하거나 저장된 메세지를 확인하는 것은 좌측상단의 Draw Menu에서 확인하세요.\n원하는 문장은 중복되지 않은 한가지 단어로 입력해주세요.(예: 취업, 출금)"
+        android:textSize="18dp" />
+</LinearLayout>
